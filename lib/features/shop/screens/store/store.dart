@@ -7,6 +7,7 @@ import 'package:e_commerce_app/common/widgets/layout/grid_layout.dart';
 import 'package:e_commerce_app/common/widgets/products/products/cart/cart_menu_icon.dart';
 import 'package:e_commerce_app/common/widgets/texts/section_heading.dart';
 import 'package:e_commerce_app/features/shop/screens/all_products/all_products.dart';
+import 'package:e_commerce_app/features/shop/screens/brand/all_brands.dart';
 import 'package:e_commerce_app/features/shop/screens/store/widgets/category_tab.dart';
 import 'package:e_commerce_app/utility/constants/colors.dart';
 import 'package:e_commerce_app/utility/constants/sizes.dart';
@@ -62,7 +63,8 @@ class StoreScreen extends StatelessWidget {
                           //futher brands
                           TSectionHeading(
                             title: 'feachurd brand',
-                            onPressed: () => Get.to(() => const AllProducts()),
+                            onPressed: () =>
+                                Get.to(() => const AllBrandsScreen()),
                           ),
                           const SizedBox(
                             height: TSizes.spaceBtwItems,
