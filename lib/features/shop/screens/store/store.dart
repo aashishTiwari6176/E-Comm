@@ -6,6 +6,7 @@ import 'package:e_commerce_app/common/widgets/layout/grid_layout.dart';
 
 import 'package:e_commerce_app/common/widgets/products/products/cart/cart_menu_icon.dart';
 import 'package:e_commerce_app/common/widgets/texts/section_heading.dart';
+// ignore: unused_import
 import 'package:e_commerce_app/features/shop/screens/all_products/all_products.dart';
 import 'package:e_commerce_app/features/shop/screens/brand/all_brands.dart';
 import 'package:e_commerce_app/features/shop/screens/store/widgets/category_tab.dart';
