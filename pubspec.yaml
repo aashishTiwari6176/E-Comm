@@ -28,7 +28,7 @@ dependencies:
   get: ^4.6.6
   get_storage: ^2.1.1
 
-  #product spacific fitures
+  #product spacific fiture
   readmore: ^3.0.0
   carousel_slider: ^4.2.1
   flutter_rating_bar: ^4.0.1
